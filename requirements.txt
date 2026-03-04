@@ -1,0 +1,5 @@
+opencv-python
+open3d
+git+https://github.com/thodan/bop_toolkit.git
+pycolmap
+commentjson

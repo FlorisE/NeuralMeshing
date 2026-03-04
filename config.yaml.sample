@@ -1,0 +1,32 @@
+skip_glomap: False
+video:
+  video_fps: 2
+skip_select_calibration_frames: False
+skip_write_calibration_frames: False
+skip_calibrate: False
+skip_train_unsegmented_nerfs: False
+skip_estimate_scale: False
+skip_scale_nerf: False
+skip_rois: False
+skip_segment: False
+skip_train_segmented_nerfs: False
+skip_generate_segmented_features: True
+skip_merge_segmented_features: True
+skip_estimate_depth: False
+skip_generate_gt_bop: False
+skip_generate_tsdf_mesh: True
+skip_generate_neus2_mesh: False
+skip_align: False
+skip_merge_aligned: False
+skip_generate_merged_mesh: False
+skip_generate_merged_mesh_neus2_original: True
+skip_generate_merged_mesh_ingp: True
+skip_scale_mesh: False
+checkerboard:
+  rows: 9
+  cols: 12
+  square_size: 0.015
+segmentation:
+  sam2_checkpoint: dependencies/segment-anything-2/checkpoints/sam2.1_hiera_large.pt
+nerf_training:
+  steps: 10000
